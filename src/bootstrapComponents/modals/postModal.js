@@ -1,7 +1,7 @@
 import Modal from 'react-bootstrap/Modal';
-import { Form, Button, Dropdown, Row, Col } from 'react-bootstrap';
+import { Form, Button, Dropdown } from 'react-bootstrap';
 import { useState, useContext } from 'react';
-import { postAxios, getAxios } from '../../axiosCalls/axios';
+import { postAxios, getAxios } from '../../axiosCalls/axiosCalls';
 import { DevicesContext } from '../../context/deviceContext';
 import './postModal.css';
 

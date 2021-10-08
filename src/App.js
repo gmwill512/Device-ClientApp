@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from 'react';
 import { DevicesContext } from './context/deviceContext';
 import './App.css';
-import { getAxios, deleteAxios } from './axiosCalls/axios';
+import { getAxios, deleteAxios } from './axiosCalls/axiosCalls';
 import { AddModal } from './bootstrapComponents/modals/postModal';
 import { PutModal } from './bootstrapComponents/modals/putModal';
 import {
